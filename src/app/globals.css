@@ -1,6 +1,9 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
   display: none;
 }
 
@@ -8,8 +11,8 @@
   @apply bg-gradient-to-br from-rose-400 to-fuchsia-700
 }
 
-@layer utilities{
-  .text-balance{
+@layer utilities {
+  .text-balance {
     text-wrap: balance;
   }
 }
