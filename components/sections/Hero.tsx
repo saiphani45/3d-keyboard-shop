@@ -37,11 +37,11 @@ const Hero = () => {
           <div>
             <TypingText
               text="Your keyboard"
-              textStyles="text-5xl md:text-6xl font-bold"
+              textStyles="text-5xl md:text-6xl font-bold text-white"
             />
             <TypingText
               text="your comfort!"
-              textStyles="text-5xl md:text-6xl font-bold"
+              textStyles="text-5xl md:text-6xl font-bold text-white"
             />
           </div>
           <p className="text-slate-400 font-semibold">
@@ -51,13 +51,13 @@ const Hero = () => {
           <div className="flex flex-row gap-6">
             <Link
               href="#catalog"
-              className="w-36 flex justify-center py-3 rounded-xl text-xs bg-gradient"
+              className="w-36 flex justify-center py-3 rounded-xl text-xs bg-gradient "
             >
               Buy keyboard
             </Link>
             <Link
               href="#fatures"
-              className="w-36 flex justify-center py-3 rounded-xl text-xs  border-[1px] border-white"
+              className="w-36 flex justify-center py-3 rounded-xl text-xs  border-[1px] border-white bg-slate-500"
             >
               See more
             </Link>

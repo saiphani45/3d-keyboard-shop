@@ -26,7 +26,7 @@ const ProductCard = ({
     >
       <AnimatedContainer
         delay={index * 0.2}
-        styles={`w-80 h-32 flex flex-row gap-4 rounded-xl transition-all duration-300 cursor-pointer ${
+        styles={`w-80 h-34 flex flex-row gap-4 rounded-xl transition-all duration-300 cursor-pointer ${
           isActive ? "bg-gradient" : "bg-stone-800"
         }`}
       >

@@ -46,7 +46,7 @@ const Footer = () => {
         <div className="flex flex-col gap-8">
           <div className="w-32 flex flex-col gap-2">
             <p className="p-xs font-semibold text-slate-400">Location:</p>
-            <p>Some Address 121, USA, 12345</p>
+            <p>Some Address 121, India, 12345</p>
           </div>
           <div className="w-32 flex flex-col gap-2">
             <p className="p-xs font-semibold text-slate-400">Phone:</p>
@@ -65,7 +65,7 @@ const Footer = () => {
       <hr className="px-16 border-slate-400" />
 
       <div className="w-full flex flex-col-reverse gap-y-2 md:flex-row items-center justify-between py-4 text-xs text-slate-400">
-        <p>&copy; Fibipals Co.</p>
+        <p>&copy; Sai Phani</p>
         <p> Contsct Us | keyboard@gmail.com</p>
       </div>
     </div>

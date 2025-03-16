@@ -45,7 +45,7 @@ const Catalog = ({ selectedProduct, onProductClick }: CatalogProps) => {
         <span className="animate-pulse">/</span>
         catalog
       </h2>
-      <div className="w-full flex flex-col items-center lg:flex-row gap-6 mx-auto">
+      <div className="w-full flex flex-col items-center lg:flex-row gap-8 mx-auto">
         {products.map((product, index) => (
           <ProductCard
             key={index}
