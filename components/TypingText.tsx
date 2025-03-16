@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 interface TypingTextProps {
   text: string;
-  textStyles: any;
+  textStyles: string;
 }
 
 const containerVariant = {
